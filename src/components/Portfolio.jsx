@@ -3,7 +3,7 @@ import React from "react";
 import { data } from "../data/data.js";
 
 const Portfolio = () => {
-  const string2 = "// Check out some of my recent work.";
+  const string2 = "Check out my work between the end of September and the last week of October";
 
   // projects file
   const project=data;
@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full pt-8 md:h-full text-gray-300 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900"
+      className="w-full pt-8 md:h-full text-gray-300 bg-gradient-to-t from-amber-200 via-violet-600 to-sky-900"
     >
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  text-center w-full h-full">

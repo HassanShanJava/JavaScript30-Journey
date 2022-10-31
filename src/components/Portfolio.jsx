@@ -14,7 +14,7 @@ const Portfolio = () => {
       className="w-full pt-8 md:h-full text-gray-300 bg-gradient-to-t from-amber-200 via-violet-600 to-sky-900"
     >
       {/* container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  text-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col flex-wrap justify-center  text-center w-full h-full">
         <div className="pb-8 ">
           <p className="text-4xl  font-bold text-gray-300 inline border-b-4 border-pink-600">
             JavaScript30 days Challenge
@@ -26,13 +26,14 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-3 md:grid-cols-4 justify-center gap-4">
 
 
+
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
-                        flex  justify-center text-center items-center mx-auto content-div object-cover"
+                        flex justify-center text-center items-center mx-auto content-div object-cover"
             >
               {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 duration-300 ">
@@ -62,7 +63,6 @@ const Portfolio = () => {
               </div>
             </div>
           ))}
-
           
         </div>
       </div>

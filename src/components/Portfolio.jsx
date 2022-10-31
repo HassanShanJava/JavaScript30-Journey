@@ -23,7 +23,7 @@ const Portfolio = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-3 md:grid-cols-4  gap-4">
+        <div className="grid sm:grid-cols-3 md:grid-cols-4 justify-center gap-4">
 
 
           {/* Gird Item */}
@@ -40,7 +40,8 @@ const Portfolio = () => {
                   {item.name}
                 </span>
                 <div className="pt-8 text-center ">
-                  <a href={item.github} target="__blank">
+                  {/* eslint-disable-next-line */}
+                  <a href={item.github} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                                  bg-white text-gray-700 font-bold text-lg"
@@ -48,7 +49,8 @@ const Portfolio = () => {
                       Code
                     </button>
                   </a>
-                  <a href={item.live} target="_-blank">
+                  {/* eslint-disable-next-line */}                  
+                  <a href={item.live} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                                  bg-white text-gray-700 font-bold text-lg"

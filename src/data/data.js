@@ -1,83 +1,230 @@
-import AirClone from "../assets/snipcode/airbnb-clone.png";
-import ModBank from "../assets/snipcode/modern-bank.png";
-import GalaxyTravels from "../assets/snipcode/galaxy-travels.png";
-import AptiveData from "../assets/snipcode/aptive-data.png";
-import Drawing from "../assets/snipcode/drawing-app.png";
-import Webull from "../assets/snipcode/react-styled-webull.png";
-import Datasite from "../assets/snipcode/datasite.png";
-import FirstResponsive from "../assets/snipcode/responsive-portfolio.png";
-import FoodPanda from "../assets/snipcode/food-panda.png";
-import Drive from "../assets/snipcode/drive-rental.png";
+import Day1 from "../assets/JS/day1.png"
+import Day2 from "../assets/JS/day2.png"
+import Day3 from "../assets/JS/day3.png"
+import Day4 from "../assets/JS/day4.png"
+import Day5 from "../assets/JS/day5.png"
+import Day6 from "../assets/JS/day6.png"
+import Day7 from "../assets/JS/day7.png"
+import Day8 from "../assets/JS/day8.png"
+import Day9 from "../assets/JS/day9.png"
+import Day10 from "../assets/JS/day10.png"
+import Day11 from "../assets/JS/day11.png"
+import Day12 from "../assets/JS/day12.png"
+import Day13 from "../assets/JS/day13.png"
+import Day14 from "../assets/JS/day14.png"
+import Day15 from "../assets/JS/day15.png"
+import Day16 from "../assets/JS/day16.png"
+import Day17 from "../assets/JS/day17.png"
+import Day18 from "../assets/JS/day18.png"
+import Day19 from "../assets/JS/day19.png"
+import Day20 from "../assets/JS/day20.png"
+import Day21 from "../assets/JS/day21.png"
+import Day22 from "../assets/JS/day22.PNG"
+import Day23 from "../assets/JS/day23.png"
+import Day24 from "../assets/JS/day24.png"
+import Day25 from "../assets/JS/day25.png"
+import Day26 from "../assets/JS/day26.png"
+import Day27 from "../assets/JS/day27.png"
+import Day28 from "../assets/JS/day28.png"
+import Day29 from "../assets/JS/day29.png"
+import Day30 from "../assets/JS/day30.png"
 
 export const data=[
     {
         id:1,
-        name:"Airbnb Landing Clone",
-        image:AirClone,
-        github:"https://github.com/HassanShanJava/airbnb-landing-clone",
-        live:"https://airbnb-landing-clone-page.netlify.app/",
+        name:"Day 1",
+        image:Day1,
+        github:"",
+        live:"",
     },
     {
         id:2,
-        name:"Galaxy Travels Application",
-        image:GalaxyTravels,
-        github:"https://github.com/HassanShanJava/galaxy-travels-router",
-        live:"https://galaxy-travel-page.netlify.app/",
+        name:"Day 2",
+        image:Day2,
+        github:"",
+        live:"",
     },
     {
         id:3,
-        name:"Modern Banking Appilcation",
-        image:ModBank,
-        github:"https://github.com/HassanShanJava/modern-banking-app",
-        live:"https://hs-modern-bank-app.netlify.app/",
+        name:"Day 3",
+        image:Day3,
+        github:"",
+        live:"",
     },
     {
         id:4,
-        name:"Aptive Data Application",
-        image:AptiveData,
-        github:"https://github.com/HassanShanJava/Aptive-Router",
-        live:"https://aptive-data-commerce.netlify.app/",
+        name:"Day 4",
+        image:Day4,
+        github:"",
+        live:"",
     },
     {
         id:5,
-        name:"Airbnb Landing Clone",
-        image:Datasite,
-        github:"https://github.com/HassanShanJava/airbnb-landing-clone",
-        live:"https://airbnb-landing-clone-page.netlify.app/",
+        name:"Day 5",
+        image:Day5,
+        github:"",
+        live:"",
     },
     {
         id:6,
-        name:"Data Site Application",
-        image:Drawing,
-        github:"https://github.com/HassanShanJava/drawing-app",
-        live:"https://drawing-app-2.netlify.app/",
+        name:"Day 6",
+        image:Day6,
+        github:"",
+        live:"",
     },
     {
         id:7,
-        name:"First Responsive Website",
-        image:FirstResponsive,
-        github:"https://github.com/HassanShanJava/my-project-portfolio",
-        live:"https://hassan-shan-portfolio.netlify.app/",
+        name:"Day 7",
+        image:Day7,
+        github:"",
+        live:"",
     },
     {
         id:8,
-        name:"Webull Stocks Application",
-        image:Webull,
-        github:"https://github.com/HassanShanJava/react_styled_components_gh",
-        live:"https://hassanshanjava.github.io/react_styled_components_gh/",
+        name:"Day 8",
+        image:Day8,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day9,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day10,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day11,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day12,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day13,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day14,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day15,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day16,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day17,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day18,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day19,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day20,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day21,
+        github:"",
+        live:"",
+    },{
+        id:2,
+        name:"Day 2",
+        image:Day22,
+        github:"",
+        live:"",
     },
     {
-        id:9,
-        name:"FoodPanda Landing Page Clone",
-        image:FoodPanda,
-        github:"https://github.com/HassanShanJava/FoodPanda-Clone-Landing-Page",
-        live:"https://foodpanda-clone.netlify.app/",
+        id:2,
+        name:"Day 2",
+        image:Day23,
+        github:"",
+        live:"",
     },
     {
-        id:10,
-        name:"Drive Cars Rental Application",
-        image:Drive,
-        github:"https://github.com/HassanShanJava/drive-cars-landing-page",
-        live:"https://drive-rent-a-car.netlify.app/",
+        id:2,
+        name:"Day 2",
+        image:Day24,
+        github:"",
+        live:"",
     },
+    {
+        id:2,
+        name:"Day 2",
+        image:Day25,
+        github:"",
+        live:"",
+    },
+    {
+        id:2,
+        name:"Day 2",
+        image:Day26,
+        github:"",
+        live:"",
+    },
+    {
+        id:2,
+        name:"Day 2",
+        image:Day27,
+        github:"",
+        live:"",
+    },
+    {
+        id:2,
+        name:"Day 2",
+        image:Day28,
+        github:"",
+        live:"",
+    },
+    {
+        id:2,
+        name:"Day 2",
+        image:Day29,
+        github:"",
+        live:"",
+    },
+    {
+        id:2,
+        name:"Day 2",
+        image:Day30,
+        github:"",
+        live:"",
+    },
+    
 ]

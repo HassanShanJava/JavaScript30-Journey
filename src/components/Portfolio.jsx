@@ -11,19 +11,19 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full md:h-full text-gray-300 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900"
+      className="w-full pt-8 md:h-full text-gray-300 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900"
     >
       {/* container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  text-center w-full h-full">
         <div className="pb-8 ">
-          <p className="text-4xl font-bold text-gray-300 inline border-b-4 border-pink-600">
+          <p className="text-4xl  font-bold text-gray-300 inline border-b-4 border-pink-600">
             JavaScript30 days Challenge
           </p>
-          <p className="py-6 ">{string2}</p>
+          <p className="text-left py-6 ">{string2}</p>
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-3 md:grid-cols-4  gap-4">
 
 
           {/* Gird Item */}
